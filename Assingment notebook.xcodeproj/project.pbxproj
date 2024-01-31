@@ -14,6 +14,8 @@
 		CAED49A72B6AA12900723CC9 /* Assingment_notebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED49A62B6AA12900723CC9 /* Assingment_notebookTests.swift */; };
 		CAED49B12B6AA12900723CC9 /* Assingment_notebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED49B02B6AA12900723CC9 /* Assingment_notebookUITests.swift */; };
 		CAED49B32B6AA12900723CC9 /* Assingment_notebookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED49B22B6AA12900723CC9 /* Assingment_notebookUITestsLaunchTests.swift */; };
+		CAED49C02B6AA52600723CC9 /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED49BF2B6AA52600723CC9 /* ToDoList.swift */; };
+		CAED49C22B6AA5E500723CC9 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED49C12B6AA5E500723CC9 /* AddItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		CAED49AC2B6AA12900723CC9 /* Assingment notebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assingment notebookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAED49B02B6AA12900723CC9 /* Assingment_notebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assingment_notebookUITests.swift; sourceTree = "<group>"; };
 		CAED49B22B6AA12900723CC9 /* Assingment_notebookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assingment_notebookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CAED49BF2B6AA52600723CC9 /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
+		CAED49C12B6AA5E500723CC9 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				CAED49942B6AA12800723CC9 /* Assingment_notebookApp.swift */,
 				CAED49962B6AA12800723CC9 /* ContentView.swift */,
+				CAED49C12B6AA5E500723CC9 /* AddItemView.swift */,
+				CAED49BF2B6AA52600723CC9 /* ToDoList.swift */,
 				CAED49982B6AA12900723CC9 /* Assets.xcassets */,
 				CAED499A2B6AA12900723CC9 /* Assingment_notebook.entitlements */,
 				CAED499B2B6AA12900723CC9 /* Preview Content */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAED49972B6AA12800723CC9 /* ContentView.swift in Sources */,
+				CAED49C02B6AA52600723CC9 /* ToDoList.swift in Sources */,
 				CAED49952B6AA12800723CC9 /* Assingment_notebookApp.swift in Sources */,
+				CAED49C22B6AA5E500723CC9 /* AddItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
