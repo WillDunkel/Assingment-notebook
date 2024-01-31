@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAED49952B6AA12800723CC9 /* Assingment_notebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED49942B6AA12800723CC9 /* Assingment_notebookApp.swift */; };
+		CAED49972B6AA12800723CC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED49962B6AA12800723CC9 /* ContentView.swift */; };
+		CAED49992B6AA12900723CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAED49982B6AA12900723CC9 /* Assets.xcassets */; };
+		CAED499D2B6AA12900723CC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAED499C2B6AA12900723CC9 /* Preview Assets.xcassets */; };
+		CAED49A72B6AA12900723CC9 /* Assingment_notebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED49A62B6AA12900723CC9 /* Assingment_notebookTests.swift */; };
+		CAED49B12B6AA12900723CC9 /* Assingment_notebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED49B02B6AA12900723CC9 /* Assingment_notebookUITests.swift */; };
+		CAED49B32B6AA12900723CC9 /* Assingment_notebookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED49B22B6AA12900723CC9 /* Assingment_notebookUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAED49A32B6AA12900723CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAED49892B6AA12800723CC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAED49902B6AA12800723CC9;
+			remoteInfo = "Assingment notebook";
+		};
+		CAED49AD2B6AA12900723CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAED49892B6AA12800723CC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAED49902B6AA12800723CC9;
+			remoteInfo = "Assingment notebook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAED49912B6AA12800723CC9 /* Assingment notebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assingment notebook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAED49942B6AA12800723CC9 /* Assingment_notebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assingment_notebookApp.swift; sourceTree = "<group>"; };
+		CAED49962B6AA12800723CC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAED49982B6AA12900723CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAED499A2B6AA12900723CC9 /* Assingment_notebook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Assingment_notebook.entitlements; sourceTree = "<group>"; };
+		CAED499C2B6AA12900723CC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAED49A22B6AA12900723CC9 /* Assingment notebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assingment notebookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAED49A62B6AA12900723CC9 /* Assingment_notebookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assingment_notebookTests.swift; sourceTree = "<group>"; };
+		CAED49AC2B6AA12900723CC9 /* Assingment notebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assingment notebookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAED49B02B6AA12900723CC9 /* Assingment_notebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assingment_notebookUITests.swift; sourceTree = "<group>"; };
+		CAED49B22B6AA12900723CC9 /* Assingment_notebookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assingment_notebookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAED498E2B6AA12800723CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAED499F2B6AA12900723CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAED49A92B6AA12900723CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAED49882B6AA12800723CC9 = {
+			isa = PBXGroup;
+			children = (
+				CAED49932B6AA12800723CC9 /* Assingment notebook */,
+				CAED49A52B6AA12900723CC9 /* Assingment notebookTests */,
+				CAED49AF2B6AA12900723CC9 /* Assingment notebookUITests */,
+				CAED49922B6AA12800723CC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAED49922B6AA12800723CC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAED49912B6AA12800723CC9 /* Assingment notebook.app */,
+				CAED49A22B6AA12900723CC9 /* Assingment notebookTests.xctest */,
+				CAED49AC2B6AA12900723CC9 /* Assingment notebookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAED49932B6AA12800723CC9 /* Assingment notebook */ = {
+			isa = PBXGroup;
+			children = (
+				CAED49942B6AA12800723CC9 /* Assingment_notebookApp.swift */,
+				CAED49962B6AA12800723CC9 /* ContentView.swift */,
+				CAED49982B6AA12900723CC9 /* Assets.xcassets */,
+				CAED499A2B6AA12900723CC9 /* Assingment_notebook.entitlements */,
+				CAED499B2B6AA12900723CC9 /* Preview Content */,
+			);
+			path = "Assingment notebook";
+			sourceTree = "<group>";
+		};
+		CAED499B2B6AA12900723CC9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAED499C2B6AA12900723CC9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAED49A52B6AA12900723CC9 /* Assingment notebookTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAED49A62B6AA12900723CC9 /* Assingment_notebookTests.swift */,
+			);
+			path = "Assingment notebookTests";
+			sourceTree = "<group>";
+		};
+		CAED49AF2B6AA12900723CC9 /* Assingment notebookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAED49B02B6AA12900723CC9 /* Assingment_notebookUITests.swift */,
+				CAED49B22B6AA12900723CC9 /* Assingment_notebookUITestsLaunchTests.swift */,
+			);
+			path = "Assingment notebookUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAED49902B6AA12800723CC9 /* Assingment notebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAED49B62B6AA12900723CC9 /* Build configuration list for PBXNativeTarget "Assingment notebook" */;
+			buildPhases = (
+				CAED498D2B6AA12800723CC9 /* Sources */,
+				CAED498E2B6AA12800723CC9 /* Frameworks */,
+				CAED498F2B6AA12800723CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assingment notebook";
+			productName = "Assingment notebook";
+			productReference = CAED49912B6AA12800723CC9 /* Assingment notebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAED49A12B6AA12900723CC9 /* Assingment notebookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAED49B92B6AA12900723CC9 /* Build configuration list for PBXNativeTarget "Assingment notebookTests" */;
+			buildPhases = (
+				CAED499E2B6AA12900723CC9 /* Sources */,
+				CAED499F2B6AA12900723CC9 /* Frameworks */,
+				CAED49A02B6AA12900723CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAED49A42B6AA12900723CC9 /* PBXTargetDependency */,
+			);
+			name = "Assingment notebookTests";
+			productName = "Assingment notebookTests";
+			productReference = CAED49A22B6AA12900723CC9 /* Assingment notebookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAED49AB2B6AA12900723CC9 /* Assingment notebookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAED49BC2B6AA12900723CC9 /* Build configuration list for PBXNativeTarget "Assingment notebookUITests" */;
+			buildPhases = (
+				CAED49A82B6AA12900723CC9 /* Sources */,
+				CAED49A92B6AA12900723CC9 /* Frameworks */,
+				CAED49AA2B6AA12900723CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAED49AE2B6AA12900723CC9 /* PBXTargetDependency */,
+			);
+			name = "Assingment notebookUITests";
+			productName = "Assingment notebookUITests";
+			productReference = CAED49AC2B6AA12900723CC9 /* Assingment notebookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAED49892B6AA12800723CC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CAED49902B6AA12800723CC9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CAED49A12B6AA12900723CC9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CAED49902B6AA12800723CC9;
+					};
+					CAED49AB2B6AA12900723CC9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CAED49902B6AA12800723CC9;
+					};
+				};
+			};
+			buildConfigurationList = CAED498C2B6AA12800723CC9 /* Build configuration list for PBXProject "Assingment notebook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAED49882B6AA12800723CC9;
+			productRefGroup = CAED49922B6AA12800723CC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAED49902B6AA12800723CC9 /* Assingment notebook */,
+				CAED49A12B6AA12900723CC9 /* Assingment notebookTests */,
+				CAED49AB2B6AA12900723CC9 /* Assingment notebookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAED498F2B6AA12800723CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAED499D2B6AA12900723CC9 /* Preview Assets.xcassets in Resources */,
+				CAED49992B6AA12900723CC9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAED49A02B6AA12900723CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAED49AA2B6AA12900723CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAED498D2B6AA12800723CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAED49972B6AA12800723CC9 /* ContentView.swift in Sources */,
+				CAED49952B6AA12800723CC9 /* Assingment_notebookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAED499E2B6AA12900723CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAED49A72B6AA12900723CC9 /* Assingment_notebookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAED49A82B6AA12900723CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAED49B32B6AA12900723CC9 /* Assingment_notebookUITestsLaunchTests.swift in Sources */,
+				CAED49B12B6AA12900723CC9 /* Assingment_notebookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAED49A42B6AA12900723CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAED49902B6AA12800723CC9 /* Assingment notebook */;
+			targetProxy = CAED49A32B6AA12900723CC9 /* PBXContainerItemProxy */;
+		};
+		CAED49AE2B6AA12900723CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAED49902B6AA12800723CC9 /* Assingment notebook */;
+			targetProxy = CAED49AD2B6AA12900723CC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CAED49B42B6AA12900723CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAED49B52B6AA12900723CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CAED49B72B6AA12900723CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Assingment notebook/Assingment_notebook.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Assingment notebook/Preview Content\"";
+				DEVELOPMENT_TEAM = HLCYK9G2MU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wills-software.Assingment-notebook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAED49B82B6AA12900723CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Assingment notebook/Assingment_notebook.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Assingment notebook/Preview Content\"";
+				DEVELOPMENT_TEAM = HLCYK9G2MU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wills-software.Assingment-notebook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAED49BA2B6AA12900723CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HLCYK9G2MU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wills-software.Assingment-notebookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assingment notebook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Assingment notebook";
+			};
+			name = Debug;
+		};
+		CAED49BB2B6AA12900723CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HLCYK9G2MU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wills-software.Assingment-notebookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assingment notebook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Assingment notebook";
+			};
+			name = Release;
+		};
+		CAED49BD2B6AA12900723CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HLCYK9G2MU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wills-software.Assingment-notebookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Assingment notebook";
+			};
+			name = Debug;
+		};
+		CAED49BE2B6AA12900723CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HLCYK9G2MU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wills-software.Assingment-notebookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Assingment notebook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAED498C2B6AA12800723CC9 /* Build configuration list for PBXProject "Assingment notebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAED49B42B6AA12900723CC9 /* Debug */,
+				CAED49B52B6AA12900723CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAED49B62B6AA12900723CC9 /* Build configuration list for PBXNativeTarget "Assingment notebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAED49B72B6AA12900723CC9 /* Debug */,
+				CAED49B82B6AA12900723CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAED49B92B6AA12900723CC9 /* Build configuration list for PBXNativeTarget "Assingment notebookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAED49BA2B6AA12900723CC9 /* Debug */,
+				CAED49BB2B6AA12900723CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAED49BC2B6AA12900723CC9 /* Build configuration list for PBXNativeTarget "Assingment notebookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAED49BD2B6AA12900723CC9 /* Debug */,
+				CAED49BE2B6AA12900723CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAED49892B6AA12800723CC9 /* Project object */;
+}
